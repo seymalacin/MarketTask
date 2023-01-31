@@ -40,7 +40,7 @@ log4j2.xml
         allPages.mainPage().go_To_Url(ConfigReader.getProperty("baseURL"));
         allPages.mainPage().hoverOverGirisYapButon();
         allPages.loginPage().loginHepsiBurada(ConfigReader.getProperty("UserMail"),ConfigReader.getProperty("UserPassword"));
-        allPages.userDashboardPage().verifyValidLogin("test");
+        allPages.userDashboardPage().verifyValidLogin("Şeyma nur Laçin");
         allPages.userDashboardPage().searchProduct("robot supurge");
 
 
